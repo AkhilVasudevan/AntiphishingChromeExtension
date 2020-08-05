@@ -1,0 +1,23 @@
+{
+  "name": "Antiphishing",
+  "description": "Helps to block malicious website",
+  "version": "3.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "icons":{"16":"star.png"},
+  "permissions": [
+    "webRequest",
+      	"*://google.com/*",
+	"*://howtodoinjava.com/*",
+	"*://javatpoint.com/*",
+	"*://paypal.comwebscr.123457.login.submit.dispatch.se/*",
+	"*://paypal-manager-login.net/*",
+	"*://paypal-manager-account.net/*",
+	"*://paypal.com.laveaki.com.br/*",
+	"*://paypal-manager-loesung.net/*",
+	"*://paypal.client.identifiant.compte.clefs.informations.upgrade.mon.com/*",
+	"*://yaxz.in.ed/*",
+	"*://apple.com.adminconsole.in.com/*",
+    "webRequestBlocking"
+  ]
+}
